@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import DashBoard from './components/DashBoard';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <DashBoard/>
+    </div>
   );
 }
 
