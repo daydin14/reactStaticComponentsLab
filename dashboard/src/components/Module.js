@@ -1,6 +1,6 @@
 function Module() {
   return (
-    <div>Module</div>
+    <div class="module">Module</div>
   )
 }
 

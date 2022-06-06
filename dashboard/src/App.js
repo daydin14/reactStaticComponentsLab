@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 import DashBoard from './components/DashBoard';
 
 function App() {
