@@ -1,5 +1,5 @@
 html {
-  background-image: linear-gradient(to bottom right, rgb(0, 255, 170), rgb(0, 255, 64) ,yellow)
+  background-image: linear-gradient(to top right, rgb(0, 255, 170), rgb(0, 255, 64) ,yellow)
 }
 #title {
   display: flex;
