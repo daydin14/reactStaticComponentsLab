@@ -1,5 +1,5 @@
 html {
-  background-image: linear-gradient(to bottom right, rgb(0, 255, 170), yellow)
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 170), rgb(0, 255, 64) ,yellow)
 }
 #title {
   display: flex;
@@ -7,7 +7,7 @@ html {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 3%;
-  background-color: slateblue;
+  background-color:hotpink;
   border-radius: 80%;
   color: silver;
 }
@@ -15,8 +15,8 @@ html {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   grid-area: 1 / 1 / 6 / 6;
 
   position: relative;
@@ -42,4 +42,21 @@ html {
 .visitors {
   background-color: #a36ac7;
   grid-area: 3 / 3 / 6 / 6;
+}
+.visDeats {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  background: linear-gradient(180deg, yellow,aqua);
+  margin: 10%;
+  height: 50%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, yellow, rgb(0, 195, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  box-shadow: 0px 5px 20px rgba(0,0,0,10);
 }

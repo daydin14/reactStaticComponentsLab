@@ -2,7 +2,7 @@ import "../styles.css";
 function SideBar() {
   return (
     <div class="sidebar">
-      SideBar <br />
+      <h2>SideBar </h2>
       DashBoard <br />
       Widget <br />
       Reviews <br />
