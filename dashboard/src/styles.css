@@ -1,3 +1,16 @@
+html {
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 170), yellow)
+}
+#title {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-color: slateblue;
+  border-radius: 80%;
+  color: silver;
+}
 .dashboard {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
