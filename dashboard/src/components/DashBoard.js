@@ -1,19 +1,19 @@
 import SideBar from "./SideBar";
-import Module from "./Module";
-import Main from "./Main";
+import Reviews from "./Reviews";
+import Ratings from "./Ratings";
+import Analysis from "./Analysis";
+import Visitors from "./Visitors";
 
 function DashBoard() {
   return (
     <div>
-        <SideBar/>
-
-        <Module/>
-        <Module/>
-        <Module/>
-        
-        <Main/>
+      <SideBar />
+      <Reviews />
+      <Ratings />
+      <Analysis />
+      <Visitors />
     </div>
-  )
+  );
 }
 
 export default DashBoard;
