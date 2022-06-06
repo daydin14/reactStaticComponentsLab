@@ -3,7 +3,7 @@ import DashBoard from "./components/DashBoard";
 
 function App() {
   return (
-    <div>
+    <div class="dashboard">
       <DashBoard />
     </div>
   );

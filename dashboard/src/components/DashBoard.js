@@ -6,7 +6,7 @@ import Visitors from "./Visitors";
 
 function DashBoard() {
   return (
-    <div>
+    <div class="dashboard">
       <SideBar />
       <Reviews />
       <Ratings />
