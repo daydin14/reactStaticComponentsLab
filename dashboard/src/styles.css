@@ -7,10 +7,8 @@
   grid-area: 1 / 1 / 6 / 6;
 
   position: relative;
-  top: 50%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 50vh;
+  margin: 10%;
+  height: 75vh;
 }
 .sidebar {
   background-color: #fba922;
