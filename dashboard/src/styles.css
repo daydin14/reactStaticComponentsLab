@@ -67,6 +67,9 @@ html {
   color: transparent;
   font-size: 32px;
 }
+#totalWebVis {
+  margin-left: 10px;
+}
 ul {
   height: 65vh;
   display: flex;
