@@ -2,7 +2,8 @@ function Visitors() {
   return (
   <div class="visitors">
       <h2>Website Visitors</h2>
-      <div class="visDeats">Sup Irv</div>
+      <p>821</p>
+      <div class="visDeats">Inner Div</div>
     </div>
   );
 }
