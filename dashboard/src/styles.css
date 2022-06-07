@@ -54,6 +54,18 @@ html {
   background: linear-gradient(180deg, yellow, aqua);
   margin: 10%;
   height: 50%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 255, 255);
+}
+.visDeats:hover #hidden {
+  opacity: 100%;
+}
+#hidden {
+  opacity: 0%;
+  background: linear-gradient(90deg, rgb(253, 94, 94), rgb(255, 0, 217));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px;
 }
 ul {
   height: 65vh;
@@ -67,13 +79,13 @@ li {
   margin-right: 10%;
 }
 h2 {
-  display: flex;
-  justify-content: center;
+  /* text-align: center; */
+  margin-top: 0%;
   background: linear-gradient(90deg, yellow, rgb(0, 195, 255));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 10);
+  box-shadow: 0px 5px 20px rgba(255, 100, 0, 255);
 }
 h3 {
   background: linear-gradient(
