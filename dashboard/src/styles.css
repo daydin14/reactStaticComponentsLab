@@ -69,6 +69,15 @@ html {
 }
 #totalWebVis {
   margin-left: 10px;
+  color: rgb(255, 205, 247);
+  background-color: #cc342b;
+  border-style: dashed;
+  border-color: silver;
+  max-width: fit-content;
+}
+#sentimentAnalysis {
+  height: 22vh;
+  font-size: 12px;
 }
 ul {
   height: 65vh;
@@ -82,6 +91,7 @@ li {
   margin-right: 10%;
 }
 h2 {
+  /* Affects modules' title */
   /* text-align: center; */
   margin-top: 0%;
   background: linear-gradient(90deg, yellow, rgb(0, 195, 255));
@@ -91,6 +101,7 @@ h2 {
   box-shadow: 0px 5px 20px rgba(255, 100, 0, 255);
 }
 h3 {
+  /* Side Bar Options*/
   background: linear-gradient(
     90deg,
     rgb(253, 94, 94),
